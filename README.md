@@ -1,6 +1,6 @@
-# Tableau Data Quality Sentinel
+# Tableau Data Quality Sentinel v3.1
 
-**A Claude skill that profiles published Tableau datasources for schema hygiene, naming violations, type mismatches, and metadata gaps. Built for [Claude Desktop](https://claude.ai/download) and the [Tableau MCP](https://github.com/tableau/tableau-mcp). v.2.0**
+A Claude skill that profiles published Tableau datasources for schema hygiene, naming violations, type mismatches, and metadata gaps. Built for [Claude Desktop](https://claude.ai/download) and the [Tableau MCP](https://github.com/tableau/tableau-mcp).
 
 ## How It Works
 
@@ -74,6 +74,8 @@ Chunks remaining: 2
 ## Scheduled Monitoring
 
 After any full scan, the skill offers to schedule recurring checks. You pick the cadence and alert threshold. Scheduled runs use alert-style output and only notify you when scores drop or new issues appear.
+
+**Note on permissions:** Scheduled runs may prompt for tool approval the first time they access Tableau MCP endpoints. Run the task manually once ("Run now") to pre-approve the tools it needs. After that, future runs execute without interruption.
 
 ## Key Features
 
