@@ -1,6 +1,6 @@
 # Tableau Data Quality Sentinel
 
-A Claude skill that profiles published Tableau datasources for schema hygiene, naming violations, type mismatches, and metadata gaps. Built for [Claude Desktop](https://claude.ai/download) and the [Tableau MCP](https://github.com/tableau/tableau-mcp).
+**A Claude skill that profiles published Tableau datasources for schema hygiene, naming violations, type mismatches, and metadata gaps. Built for [Claude Desktop](https://claude.ai/download) and the [Tableau MCP](https://github.com/tableau/tableau-mcp). v.2.0**
 
 ## How It Works
 
